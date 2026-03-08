@@ -9,3 +9,4 @@
 - Install React router to navigate b/w pages
 - Create Routes
 - Create login page
+- Setup clerk authintication
