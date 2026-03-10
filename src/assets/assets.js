@@ -1,4 +1,5 @@
 import logo from './logo.svg'
+import logo1 from './logo1.svg'
 import sample_cover from './sample_cover.jpg'
 import sample_profile from './sample_profile.jpg'
 import bgImage from './bgImage.png'
@@ -8,6 +9,7 @@ import sponsored_img from './sponsored_img.png'
 
 export const assets = {
     logo,
+    logo1,
     sample_cover,
     sample_profile,
     bgImage,
@@ -65,7 +67,7 @@ export const dummyStoriesData = [
         "media_url": "",
         "media_type": "text",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:16:06.958Z",
+        "createdAt": "2026-03-10T08:16:06.958Z",
         "updatedAt": "2025-07-25T08:16:06.958Z",
     },
     {
@@ -75,7 +77,7 @@ export const dummyStoriesData = [
         "media_url": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
         "media_type": "image",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:27:48.134Z",
+        "createdAt": "2026-03-09T09:57:48.134Z",
         "updatedAt": "2025-07-25T08:27:48.134Z",
     },
     {
@@ -85,7 +87,7 @@ export const dummyStoriesData = [
         "media_url": "https://videos.pexels.com/video-files/14447442/14447442-hd_1080_1920_30fps.mp4",
         "media_type": "video",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:27:21.289Z",
+        "createdAt": "2026-03-10T08:57:21.289Z",
         "updatedAt": "2025-07-25T08:27:21.289Z",
     },
     {
@@ -95,7 +97,7 @@ export const dummyStoriesData = [
         "media_url": "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg",
         "media_type": "image",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:19:31.080Z",
+        "createdAt": "2026-03-08T08:19:31.080Z",
         "updatedAt": "2025-07-25T08:19:31.080Z",
     },
     {
@@ -105,7 +107,7 @@ export const dummyStoriesData = [
         "media_url": "",
         "media_type": "text",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:16:48.617Z",
+        "createdAt": "2026-03-10T09:56:48.617Z",
         "updatedAt": "2025-07-25T08:16:48.617Z",
     },
     {
@@ -115,7 +117,7 @@ export const dummyStoriesData = [
         "media_url": "",
         "media_type": "text",
         "background_color": "#4f46e5",
-        "createdAt": "2025-07-25T08:13:18.111Z",
+        "createdAt": "2026-03-10T10:46:18.111Z",
         "updatedAt": "2025-07-25T08:13:18.111Z",
     }
 ]

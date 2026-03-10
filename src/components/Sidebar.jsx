@@ -15,7 +15,7 @@ const Sidebar = ({sidebarOpen, setSidebarOpen}) => {
     ${sidebarOpen ? "translate-x-0" : "max-sm:-translate-x-full"}
     transition-all duration-300 ease-in-out transform`}>
       <div className='w-full'>
-        <img onClick={()=>navigate('/')} src={assets.logo} className='w-26 ml-7 my-2 cursor-pointer' alt="" />
+        <img onClick={()=>navigate('/')} src={assets.logo1} className='w-40 h-24 ml-7 my-2 cursor-pointer' alt="" />
         <hr className='border-gray-300 mb-8'/>
         <MenuItems setSidebarOpen={setSidebarOpen}/>
         <Link to='/create-post' className='flex items-center justify-center 

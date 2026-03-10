@@ -1,0 +1,31 @@
+
+<svg width="840" height="240" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Code brackets -->
+  <polyline points="40,60 70,30 70,45 55,60 70,75 70,90 40,60"
+            fill="none" stroke="url(#grad2)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="120,30 150,60 120,90"
+            fill="none" stroke="url(#grad1)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Connection nodes -->
+  <circle cx="85" cy="40" r="5" fill="#22d3ee"/>
+  <circle cx="100" cy="60" r="5" fill="#a855f7"/>
+  <circle cx="85" cy="80" r="5" fill="#34d399"/>
+  <line x1="85" y1="40" x2="100" y2="60" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="100" y1="60" x2="85" y2="80" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- Text -->
+  <text x="170" y="72" font-size="36" font-family="Inter, Arial, sans-serif" fill="url(#grad2)" font-weight="600">
+    Dev<tspan fill="#111827">Connect</tspan>
+  </text>
+</svg>
