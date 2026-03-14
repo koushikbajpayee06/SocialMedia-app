@@ -5,6 +5,7 @@ import { Link, useParams } from 'react-router-dom';
 import UserProfileInfo from '../components/UserProfileInfo';
 import PostCard from '../components/PostCard';
 import moment from 'moment';
+import ProfileModel from '../components/ProfileModel';
 
 
 const Profile = () => {
@@ -85,7 +86,7 @@ const Profile = () => {
       </div>
       {/* Edit profile page */}
       {
-        showEdit && <p>Show Profile edit</p>
+        showEdit && <ProfileModel setShowEdit={setShowEdit}/>
       }
     </div>
   ):<Loading/>
